@@ -15,23 +15,19 @@ const Sidenav = () => {
         {
             nav ? (
                 <div className = 'fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
-                    <a href = "#main" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
+                    <a onClick = {handleNav} href = "#main" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
                         <IconHome size = {20}/> 
                         <span className ='pl-4'>Home</span> 
                     </a>
-                    <a href = "#work" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
+                    <a onClick = {handleNav}  href = "#work" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
                         <IconLayoutGrid size = {20}/> 
                         <span className ='pl-4'>Experience</span> 
                     </a>
-                    <a href = "#projects" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
+                    <a onClick = {handleNav}  href = "#projects" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
                         <IconBriefcase2 size = {20}/> 
                         <span className ='pl-4'>Projects</span> 
                     </a>
-                    <a href = "#resume" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
-                        <IconClipboardData size = {20}/> 
-                        <span className ='pl-4'>Resume</span> 
-                    </a>
-                    <a href = "#contact" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
+                    <a onClick = {handleNav}  href = "#contact" className = 'w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gradient-to-r from-yellow-100 to-red-100 shadow-gray-400 m-2 p-4 cursor:pointer hover:scale-110 ease-in duration-200'> 
                         <IconMail size = {20}/> 
                         <span className ='pl-4'>Contact </span> 
                     </a>
