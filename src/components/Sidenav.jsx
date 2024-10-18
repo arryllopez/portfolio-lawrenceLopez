@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {IconHome, IconClipboardData, IconBriefcase2, IconLayoutGrid, IconMail, IconMenu} from '@tabler/icons-react'
+import {IconHome, IconBriefcase2, IconLayoutGrid, IconMail, IconMenu} from '@tabler/icons-react'
 
 const Sidenav = () => {
     const [nav,setNav] = useState(false)
