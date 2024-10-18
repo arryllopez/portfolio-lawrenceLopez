@@ -48,9 +48,6 @@ const Sidenav = () => {
                     <a href = "projects" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
                     <IconBriefcase2 size ={20} /> 
                     </a> 
-                    <a href = "#resume" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
-                    <IconClipboardData size ={20} /> 
-                    </a> 
                     <a href = "#contact" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
                     <IconMail size ={20} /> 
                     </a> 
