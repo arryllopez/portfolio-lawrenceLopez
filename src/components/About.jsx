@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 
-//initializing index values for framer motion animation
+//initializing index values for framer motion staggered animation
 var index = 1
 var index2 = 2
  
