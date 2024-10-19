@@ -27,8 +27,8 @@ const Main = () => {
             />
           </h2>
           <div className = 'flex justify-between pt-6 max-w-[200px] w-full'> 
-            <IconBrandGithub className = 'cursor-pointer hover:scale-110'  size = {30} /> 
-            <IconBrandInstagram className = 'cursor-pointer hover:scale-110' size = {30} /> 
+            <a href = "https://github.com/arryllopez"> <IconBrandGithub className = 'cursor-pointer hover:scale-110'  size = {30} />  </a>
+            <a href = "https://www.instagram.com/arryllopez_/?hl=en"> <IconBrandInstagram className = 'cursor-pointer hover:scale-110' size = {30} /> </a>
             <IconBrandLinkedin className = 'cursor-pointer hover:scale-110'  size = {30} />
           </div> 
         </div>
