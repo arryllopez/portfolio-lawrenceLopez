@@ -5,6 +5,10 @@ import {motion} from 'framer-motion'
 
 //initialize index values for staggered animation
 var index3 = 3
+var index4 = 4
+var index5 = 5
+var index6 = 6
+var index7 = 7
 
 const fadeInAnimationVariants = 
 { 
@@ -36,10 +40,50 @@ const Projects = () => {
         >Projects</motion.h1> 
 
         <div className = 'grid sm:grid-cols-2 gap-12 m:grid-col py-8'>
+          <motion.div
+           variants = {fadeInAnimationVariants}
+           initial = "initial"
+           whileInView = "animate"
+            viewport = {{
+              once : true,
+            }}
+            custom = {index4}
+          > 
+          <ProjectItem img = {comingSoon} title = 'Coming Soon'/>
+          </motion.div> 
+          <motion.div
+           variants = {fadeInAnimationVariants}
+           initial = "initial"
+           whileInView = "animate"
+            viewport = {{
+              once : true,
+            }}
+            custom = {index5}
+          > 
           <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
+          </motion.div>
+          <motion.div
+          variants = {fadeInAnimationVariants}
+          initial = "initial"
+          whileInView = "animate"
+           viewport = {{
+             once : true,
+           }}
+           custom = {index6}
+          > 
+          <ProjectItem img = {comingSoon} title = 'Coming Soon'/>
+          </motion.div> 
+          <motion.div
+           variants = {fadeInAnimationVariants}
+           initial = "initial"
+           whileInView = "animate"
+            viewport = {{
+              once : true,
+            }}
+            custom = {index7}
+          > 
           <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
+          </motion.div>
           </div> 
           
     </div>
