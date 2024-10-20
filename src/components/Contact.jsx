@@ -16,8 +16,7 @@ const fadeInAnimationVariants =
   }),
 }
 
-var index = 12
-
+var index = 1
 
 const Contact = () => {
   return (

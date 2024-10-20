@@ -4,11 +4,11 @@ import comingSoon from '../assets/comingSoon.jpg'
 import {motion} from 'framer-motion'
 
 //initialize index values for staggered animation
-var index3 = 3
-var index4 = 4
-var index5 = 5
-var index6 = 6
-var index7 = 7
+var index3 = 1
+var index4 = 2
+var index5 = 3
+var index6 = 4
+var index7 = 5
 
 const fadeInAnimationVariants = 
 { 

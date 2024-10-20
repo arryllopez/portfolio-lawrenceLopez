@@ -1,10 +1,10 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 
-var index8 = 8
-var index9 = 9
-var index10 = 10
-var index11 = 11
+var index8 = 1
+var index9 = 2
+var index10 = 3
+var index11 = 4
 
 const fadeInAnimationVariants = 
 { 
