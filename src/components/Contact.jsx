@@ -1,23 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
 
-const fadeInAnimationVariants = 
-{ 
-  initial : {
-    opacity : 0,
-    x:100
-  },
-  animate :  (index) => ({
-    opacity : 1,
-    x : 0,
-    transition : {
-    delay : 0.05 * index,
-    },
-  }),
-}
-
-var index = 1
-
 const Contact = () => {
   return (
         <div id = 'contact' className = 'max-width-[1040px] m-auto md:pl-20 p-4 py-16'>
