@@ -5,11 +5,11 @@ const fadeInAnimationVariants =
 { 
   initial : {
     opacity : 0,
-    y:100
+    x:100
   },
   animate :  (index) => ({
     opacity : 1,
-    y : 0,
+    x : 0,
     transition : {
     delay : 0.05 * index,
     },
@@ -20,15 +20,7 @@ var index = 1
 
 const Contact = () => {
   return (
-        <motion.div id = 'contact' className = 'max-width-[1040px] m-auto md:pl-20 p-4 py-16'
-        variants = {fadeInAnimationVariants}
-        initial = "initial"
-        whileInView = "animate"
-        viewport = {{
-        once : true,
-        }}
-        custom = {index} 
-        >
+        <div id = 'contact' className = 'max-width-[1040px] m-auto md:pl-20 p-4 py-16'>
          <h1 className = 'py-4 text-4xl font-bold text-center text-[#cc5500]'> 
             Contact
          </h1>
@@ -59,7 +51,7 @@ const Contact = () => {
                 Send Message
             </button>
          </form> 
-    </motion.div>
+    </div>
   )
 }
 
