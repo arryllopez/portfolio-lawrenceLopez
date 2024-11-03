@@ -5,29 +5,32 @@ import Workitem from './WorkItem'
 const data = [
         {
             year: '2024' ,
-            title : 'Crew Member',
-            duration : 'June 2021 - August 2021',
-            details : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            title : 'After School Activity Program Leader',
+            company : 'BGC Durham',
+            duration : 'October 2024 - Current',
+            details : 'Constantly providing active supervision and leadership to program participants. Responsible for providing a safe and strucutred laarning environment for young children. Expected to research and to plan assigned program activities, making activities innovative, and motivating club memebrs.'
         },
         {
-            year: '2020' ,
-            title : 'Crew Member',
-            duration : 'June 2021 - August 2021',
-            details : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            year: '2024' ,
+            title : 'Summer Camp Counsellor',
+            company : 'STEM Camp',
+            duration : 'June 2024 - August 2024',
+            details : 'Lead STEM related activities for campers. Encouraged and assisted campers in learning more about STEM Camp projects. Created a fun, enjoyable, and safe atmosphere for campers. Ensured that all campers were treated equally, consistently, and fairly. Demonstrated a fun, positive attitude and a passion for learning STEM related subjects and activities'
         },
         {
-            year: '2020' ,
-            title : 'Crew Member',
-            duration : 'June 2021 - August 2021',
-            details : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            year: '2022' ,
+            title : 'Retail Sales Associate',
+            company : 'H&M',
+            duration : 'April 2022 - December 2022',
+            details : 'Tasked with maintaining the cleanliness of the sales floor. Provided excellent customer service. Worked with a team to create a positive shopping environment. Worked the cash point with maximum effectiveness. Managed the fitting room in an organized and customer friendly fashion'
         },
         {
-            year: '2020' ,
+            year: '2021' ,
             title : 'Crew Member',
+            company : 'Taco Bell',
             duration : 'June 2021 - August 2021',
-            details : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            details : 'Regulated and managed a fast-paced working environment to ensure deadlines were achieved. Tasked with keeping a clean and safe workplace environment. Cooked, prepared, and served food to customers. Provided excellent customer service. Ensured utensils and pans were clean'
         },
-        
 ]
 
 const Work = () => {
@@ -41,6 +44,7 @@ const Work = () => {
             title = {item.title}
             duration = {item.duration}
             details = {item.details} 
+            company = {item.company}
             />
         ))}
     </div>

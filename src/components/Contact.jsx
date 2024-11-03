@@ -26,7 +26,7 @@ const fadeInAnimationVariants =
 
 const Contact = () => {
   return (
-        <div>
+        <div id = 'contacts'>
          <motion.h1 
          variants = {fadeInAnimationVariants}
          initial = "initial"

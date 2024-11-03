@@ -7,8 +7,7 @@ const Sidenav = () => {
     const handleNav = () => {
         setNav(!nav)
     }
-
-
+    
   return (
     <div>
         <IconMenu onClick = {handleNav} className='absolute top-4 right-4 z-[99] md:hidden' /> 
@@ -55,7 +54,7 @@ const Sidenav = () => {
                     <a href = "#work" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
                     <IconLayoutGrid size ={20} /> 
                     </a>  
-                    <a href = "#contact" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
+                    <a href = "#contacts" className = 'outline outline-offset-0 outline-black-100 rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'> 
                     <IconMail size ={20} /> 
                     </a> 
                 </div>
