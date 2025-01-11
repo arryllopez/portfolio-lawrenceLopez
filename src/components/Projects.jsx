@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import comingSoon from '../assets/comingSoon.jpg'
+import DateNet from '../assets/dateNetSS.png'
 import {motion} from 'framer-motion'
 
 //initialize index values for staggered animation
@@ -9,6 +10,9 @@ var index4 = 2
 var index5 = 3
 var index6 = 4
 var index7 = 5
+
+
+
 
 const fadeInAnimationVariants = 
 { 
@@ -40,6 +44,7 @@ const Projects = () => {
         >Projects</motion.h1> 
 
         <div className = 'grid sm:grid-cols-2 gap-12 m:grid-col py-8'>
+     
           <motion.div
            variants = {fadeInAnimationVariants}
            initial = "initial"
@@ -49,7 +54,8 @@ const Projects = () => {
             }}
             custom = {index4}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/>
+          <ProjectItem img = {DateNet} title = 'DateNet' link="https://github.com/arryllopez/DateNet"/>
+          
           </motion.div> 
           <motion.div
            variants = {fadeInAnimationVariants}
@@ -60,7 +66,7 @@ const Projects = () => {
             }}
             custom = {index5}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
+          <ProjectItem img = {comingSoon} title = 'Coming Soon' link="/projects/coming-soon-1"/> 
           </motion.div>
           <motion.div
           variants = {fadeInAnimationVariants}
@@ -71,7 +77,7 @@ const Projects = () => {
            }}
            custom = {index6}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/>
+          <ProjectItem img = {comingSoon} title = 'Coming Soon' link="/projects/coming-soon-2"/>
           </motion.div> 
           <motion.div
            variants = {fadeInAnimationVariants}
@@ -82,7 +88,7 @@ const Projects = () => {
             }}
             custom = {index7}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon'/> 
+          <ProjectItem img = {comingSoon} title = 'Coming Soon' link="/projects/coming-soon-3"/> 
           </motion.div>
           </div> 
           
@@ -91,3 +97,4 @@ const Projects = () => {
 }
 
 export default Projects
+
