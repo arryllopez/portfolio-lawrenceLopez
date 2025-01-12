@@ -3,6 +3,10 @@ import ProjectItem from './ProjectItem'
 import comingSoon from '../assets/comingSoon.jpg'
 import DateNet from '../assets/dateNetSS.png'
 import {motion} from 'framer-motion'
+import {FaHtml5, FaCss3Alt, FaNode} from "react-icons/fa"
+import {TbBrandMysql} from "react-icons/tb"
+import {IoLogoJavascript} from "react-icons/io5"
+
 
 //initialize index values for staggered animation
 var index3 = 1
@@ -10,9 +14,6 @@ var index4 = 2
 var index5 = 3
 var index6 = 4
 var index7 = 5
-
-
-
 
 const fadeInAnimationVariants = 
 { 
@@ -54,8 +55,12 @@ const Projects = () => {
             }}
             custom = {index4}
           > 
-          <ProjectItem img = {DateNet} title = 'DateNet' link="https://github.com/arryllopez/DateNet"
-          description = " DateNet is a modern dating website that allows users to make meaningful personal or business relationships. " />
+          <ProjectItem 
+          img = {DateNet} 
+          title = 'DateNet' 
+          link="https://github.com/arryllopez/DateNet"
+          description = " DateNet is a modern dating website that allows users to make meaningful personal or business relationships. " 
+          />
           
           </motion.div> 
           <motion.div

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const ProjectItem = ({img, title, link, description}) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#cc5500] hover:scale-105 transition-all duration-300 ease-in-out">
@@ -25,7 +26,9 @@ const ProjectItem = ({img, title, link, description}) => {
       </div>
     </div>
   )
-};
+}
+
+
 
 export default ProjectItem
 
