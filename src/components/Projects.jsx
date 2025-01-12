@@ -54,7 +54,8 @@ const Projects = () => {
             }}
             custom = {index4}
           > 
-          <ProjectItem img = {DateNet} title = 'DateNet' link="https://github.com/arryllopez/DateNet"/>
+          <ProjectItem img = {DateNet} title = 'DateNet' link="https://github.com/arryllopez/DateNet"
+          description = " DateNet is a modern dating website that allows users to make meaningful personal or business relationships. " />
           
           </motion.div> 
           <motion.div
