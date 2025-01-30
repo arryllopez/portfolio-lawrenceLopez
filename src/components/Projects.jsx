@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectItem from './ProjectItem'
 import comingSoon from '../assets/comingSoon.jpg'
 import DateNet from '../assets/dateNetSS.png'
+import profitThrift from '../assets/profitThriftSS.png'
 import {motion} from 'framer-motion'
 import {FaHtml5, FaCss3Alt, FaNode} from "react-icons/fa"
 import {TbBrandMysql} from "react-icons/tb"
@@ -72,7 +73,11 @@ const Projects = () => {
             }}
             custom = {index5}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon' link="/projects/coming-soon-1"/> 
+          <ProjectItem img = {profitThrift} 
+          title = 'profitThrift' 
+          link="https://github.com/arryllopez/profitThrift" 
+          description = " profitThrift is a website that allows passionate thrifters and vintage enthusiasts alike to find the market value of their antiques." 
+          /> 
           </motion.div>
           <motion.div
           variants = {fadeInAnimationVariants}
@@ -83,7 +88,12 @@ const Projects = () => {
            }}
            custom = {index6}
           > 
-          <ProjectItem img = {comingSoon} title = 'Coming Soon' link="/projects/coming-soon-2"/>
+          <ProjectItem 
+          img = {comingSoon} 
+          title = 'Coming Soon' 
+          link="/projects/coming-soon-2"
+          description = ""
+          />
           </motion.div> 
           <motion.div
            variants = {fadeInAnimationVariants}
