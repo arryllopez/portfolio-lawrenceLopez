@@ -15,7 +15,7 @@ const data = [
             title : 'Summer Camp Counsellor',
             company : 'STEM Camp',
             duration : 'June 2024 - August 2024',
-            details : 'Lead STEM related activities for campers. Encouraged and assisted campers in learning more about STEM Camp projects. Created a fun, enjoyable, and safe atmosphere for campers. Ensured that all campers were treated equally, consistently, and fairly. Demonstrated a fun, positive attitude and a passion for learning STEM related subjects and activities'
+            details : 'Facilitated learning of the fundamentals of STEM (Science, Technology, Engineering, Mathematics) related fields trough project based learning amongst young campers. Demonstrated the fundamentals of programming concepts through block coding in Scratch and Microsoft MakeCode Editor. Developed core engineering principles and fundamentals such as creative problem solving and resourcefulness amongst young campers. Conducted outdoor, team-based activities, including sports programs and collaborative group challenges, to promote teamwork, communication, and physical engagement'
         },
         {
             year: '2022' ,
