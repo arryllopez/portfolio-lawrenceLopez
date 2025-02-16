@@ -3,6 +3,7 @@ import ProjectItem from './ProjectItem'
 import comingSoon from '../assets/comingSoon.jpg'
 import DateNet from '../assets/dateNetSS.png'
 import profitThrift from '../assets/profitThriftSS.png'
+import StudyTok from '../assets/StudyTok.png'
 import {motion} from 'framer-motion'
 import {FaHtml5, FaCss3Alt, FaNode} from "react-icons/fa"
 import {TbBrandMysql} from "react-icons/tb"
@@ -89,10 +90,10 @@ const Projects = () => {
            custom = {index6}
           > 
           <ProjectItem 
-          img = {comingSoon} 
-          title = 'Coming Soon' 
-          link="/projects/coming-soon-2"
-          description = ""
+          img = {StudyTok} 
+          title = 'StudyTok' 
+          link="https://github.com/arryllopez/StudyTok"
+          description = "StudyTok is an efficient study tool that utilizes AI generated flashcards and promotes active recall through voice activated answering."
           />
           </motion.div> 
           <motion.div
