@@ -25,17 +25,17 @@ const TechStack = () => {
     {
       category: "Backend",
       icon: <Server className="w-6 h-6" />,
-      techs: ["Node.js", "Express", "Python", "FastAPI"],
+      techs: ["Node.js", "Javascript", "Python", "Flask (Framework)"],
     },
     {
       category: "Database",
       icon: <Database className="w-6 h-6" />,
-      techs: ["PostgreSQL", "MongoDB", "Redis", "Prisma"],
+      techs: ["MySQL", "MongoDB"],
     },
     {
       category: "Development Tools",
       icon: <Code2 className="w-6 h-6" />,
-      techs: ["Git", "Docker", "VS Code", "Postman"],
+      techs: ["Github (Git)", "IntelliJ IDEA", "VS Code", "Eclipse" , "Jupyter Notebook", "PyCharm"],
     },
   ]
 
